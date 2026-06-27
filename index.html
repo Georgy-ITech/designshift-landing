@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="DesignShift — онлайн-курс веб-дизайна для тех, кто хочет сменить профессию. Видео + живые разборы + менторство. Портфолио и сертификат на выходе." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DesignShift — стань веб-дизайнером с нуля" />
+  <meta property="og:description" content="Курс для смены профессии. Реальные проекты, портфолио и сертификат." />
+  <meta property="og:image" content="./assets/og/og-image.svg" />
+  <meta property="og:locale" content="ru_RU" />
+  <title>DesignShift — стань веб-дизайнером</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/styles.css" />
+</head>
+
+<body>
+
+  <!-- ======================== HEADER ======================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="DesignShift — на главную">
+        <span class="logo__mark" aria-hidden="true">D/</span>
+        <span class="logo__text">Design<strong>Shift</strong></span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#program">Программа</a></li>
+          <li><a class="nav__link" href="#result">Результат</a></li>
+          <li><a class="nav__link" href="#enroll">Записаться</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему">
+          <span class="theme-toggle__sun" aria-hidden="true">☀</span>
+          <span class="theme-toggle__moon" aria-hidden="true">☾</span>
+        </button>
+        <a class="btn btn--primary btn--sm" href="#enroll">Записаться</a>
+      </div>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul class="mobile-menu__list">
+        <li><a class="mobile-menu__link" href="#program">Программа</a></li>
+        <li><a class="mobile-menu__link" href="#result">Результат</a></li>
+        <li><a class="mobile-menu__link" href="#enroll">Записаться</a></li>
+      </ul>
+      <a class="btn btn--primary btn--full" href="#enroll">Записаться на курс</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================== HERO ======================== -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero__inner">
+
+        <div class="hero__label">
+          <span class="hero__label-dot" aria-hidden="true"></span>
+          Онлайн-курс · Старт в любой момент
+        </div>
+
+        <h1 class="hero__title" id="heroTitle">
+          Смени<br />
+          профессию.<br />
+          <span class="accent">Стань дизайнером.</span>
+        </h1>
+
+        <p class="hero__sub">
+          DesignShift — курс для тех, кто устал от старой работы и хочет
+          войти в дизайн. Без опыта. С реальными проектами и портфолио на выходе.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary btn--lg" href="#enroll">Записаться на курс</a>
+          <a class="btn btn--ghost btn--lg" href="#program">Смотреть программу</a>
+        </div>
+
+        <ul class="hero__facts" aria-label="Ключевые факты о курсе">
+          <li class="hero__fact">
+            <span class="hero__fact-value">4</span>
+            <span class="hero__fact-label">месяца</span>
+          </li>
+          <li class="hero__fact-sep" aria-hidden="true"></li>
+          <li class="hero__fact">
+            <span class="hero__fact-value">40+</span>
+            <span class="hero__fact-label">уроков</span>
+          </li>
+          <li class="hero__fact-sep" aria-hidden="true"></li>
+          <li class="hero__fact">
+            <span class="hero__fact-value">6</span>
+            <span class="hero__fact-label">проектов в портфолио</span>
+          </li>
+          <li class="hero__fact-sep" aria-hidden="true"></li>
+          <li class="hero__fact">
+            <span class="hero__fact-value">1</span>
+            <span class="hero__fact-label">сертификат</span>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="hero__marquee" aria-hidden="true">
+        <div class="marquee__inner">
+          <div class="marquee__track">
+            <span>UI-дизайн</span><span class="marquee__dot">·</span>
+            <span>UX-исследования</span><span class="marquee__dot">·</span>
+            <span>Figma</span><span class="marquee__dot">·</span>
+            <span>Типографика</span><span class="marquee__dot">·</span>
+            <span>Сетки</span><span class="marquee__dot">·</span>
+            <span>Цвет</span><span class="marquee__dot">·</span>
+            <span>Адаптив</span><span class="marquee__dot">·</span>
+            <span>Компоненты</span><span class="marquee__dot">·</span>
+            <span>Портфолио</span><span class="marquee__dot">·</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== PROGRAM ======================== -->
+    <section class="section program" id="program" aria-labelledby="programTitle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Программа</p>
+          <h2 class="section-title" id="programTitle">Что тебя ждёт<br /><span class="accent">за 4 месяца</span></h2>
+        </div>
+
+        <div class="blocks">
+
+          <article class="block block--accent reveal">
+            <div class="block__num" aria-hidden="true">01</div>
+            <h3 class="block__title">Основы дизайна</h3>
+            <p class="block__text">Теория цвета, типографика, сетки, композиция. То, что отличает дизайнера от человека, который просто умеет пользоваться Figma.</p>
+            <ul class="block__list">
+              <li>Базовые принципы визуала</li>
+              <li>Figma с нуля до уверенного уровня</li>
+              <li>Разбор реальных интерфейсов</li>
+            </ul>
+          </article>
+
+          <article class="block reveal">
+            <div class="block__num" aria-hidden="true">02</div>
+            <h3 class="block__title">UI-дизайн</h3>
+            <p class="block__text">Компоненты, дизайн-системы, адаптив. Делаешь реальные экраны приложений и сайтов — не учебные задания, а проекты в портфолио.</p>
+            <ul class="block__list">
+              <li>Мобильные и веб-интерфейсы</li>
+              <li>Дизайн-системы и auto-layout</li>
+              <li>2 проекта в портфолио</li>
+            </ul>
+          </article>
+
+          <article class="block reveal">
+            <div class="block__num" aria-hidden="true">03</div>
+            <h3 class="block__title">UX и продукт</h3>
+            <p class="block__text">Исследования, прототипирование, пользовательские сценарии. Понимаешь не только как сделать красиво, но и почему так работает.</p>
+            <ul class="block__list">
+              <li>CJM, пользовательские интервью</li>
+              <li>Прототипы и пользовательский флоу</li>
+              <li>2 проекта в портфолио</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== RESULT ======================== -->
+    <section class="section result" id="result" aria-labelledby="resultTitle">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Результат</p>
+          <h2 class="section-title" id="resultTitle">Что получишь<br /><span class="accent">на выходе</span></h2>
+        </div>
+
+        <div class="outcomes">
+          <div class="outcome reveal">
+            <div class="outcome__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="6" width="32" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M15 16h18M15 22h18M15 28h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="outcome__title">Портфолио из 6 проектов</h3>
+            <p class="outcome__text">Реальные кейсы: мобильное приложение, веб-сайт, дизайн-система, лендинг и ещё два на выбор. Готово к показу заказчикам.</p>
+          </div>
+
+          <div class="outcome reveal">
+            <div class="outcome__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M17 24l5 5 9-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="outcome__title">Сертификат</h3>
+            <p class="outcome__text">Документ, подтверждающий прохождение курса. Добавляешь в резюме и LinkedIn — сигнал для работодателей и первых клиентов.</p>
+          </div>
+
+          <div class="outcome reveal">
+            <div class="outcome__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 8l4 8 9 1.3-6.5 6.3 1.5 9L24 28l-8 4.6 1.5-9L11 17.3l9-1.3L24 8z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="outcome__title">Новая профессия</h3>
+            <p class="outcome__text">Навыки, которые реально нужны рынку. Менторы помогут подготовиться к первому собеседованию и разобрать оффер.</p>
+          </div>
+        </div>
+
+        <!-- For whom -->
+        <div class="forwhom reveal">
+          <p class="eyebrow">Для кого</p>
+          <ul class="forwhom__list">
+            <li class="forwhom__item">
+              <span class="forwhom__check" aria-hidden="true"></span>
+              Устал от текущей работы и хочешь что-то своё
+            </li>
+            <li class="forwhom__item">
+              <span class="forwhom__check" aria-hidden="true"></span>
+              Нравится эстетика и визуал, но не знаешь с чего начать
+            </li>
+            <li class="forwhom__item">
+              <span class="forwhom__check" aria-hidden="true"></span>
+              Хочешь работать удалённо и зарабатывать на дизайне
+            </li>
+            <li class="forwhom__item">
+              <span class="forwhom__check" aria-hidden="true"></span>
+              Готов учиться 1–2 часа в день и делать реальные проекты
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================== ENROLL FORM ======================== -->
+    <section class="section enroll" id="enroll" aria-labelledby="enrollTitle">
+      <div class="container">
+        <div class="enroll__inner">
+          <div class="enroll__head">
+            <p class="eyebrow">Запись</p>
+            <h2 class="enroll__title" id="enrollTitle">Первый шаг —<br /><span class="accent">уже сегодня</span></h2>
+            <p class="enroll__sub">Оставь имя и email — пришлём программу курса и ответим на вопросы.</p>
+          </div>
+
+          <form class="enroll-form" id="enrollForm" novalidate aria-label="Форма записи на курс">
+            <div class="field">
+              <label class="field__label" for="nameInput">Имя</label>
+              <input class="field__input" id="nameInput" type="text" placeholder="Алексей" required aria-describedby="nameError" />
+              <span class="field__error" id="nameError" hidden>Введите ваше имя</span>
+            </div>
+            <div class="field">
+              <label class="field__label" for="emailInput">Email</label>
+              <input class="field__input" id="emailInput" type="email" placeholder="alex@example.com" required aria-describedby="emailError" />
+              <span class="field__error" id="emailError" hidden>Введите корректный email</span>
+            </div>
+            <button class="btn btn--primary btn--full btn--lg" type="submit">Получить программу курса</button>
+            <p class="enroll-form__note">Без спама. Только важное о курсе.</p>
+          </form>
+
+          <div class="enroll-success" id="enrollSuccess" hidden aria-live="polite">
+            <div class="enroll-success__icon" aria-hidden="true">✓</div>
+            <p class="enroll-success__title">Заявка принята!</p>
+            <p class="enroll-success__text">Это портфолио-демо — но если бы курс был реальным, мы бы уже написали 😊</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="logo" aria-label="DesignShift — на главную">
+        <span class="logo__mark" aria-hidden="true">D/</span>
+        <span class="logo__text">Design<strong>Shift</strong></span>
+      </a>
+      <p class="footer__copy">© 2026 DesignShift. Портфолио-проект.</p>
+      <nav aria-label="Навигация в подвале">
+        <ul class="footer__nav">
+          <li><a href="#program">Программа</a></li>
+          <li><a href="#result">Результат</a></li>
+          <li><a href="#enroll">Записаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./src/js/app.js"></script>
+</body>
+</html>
