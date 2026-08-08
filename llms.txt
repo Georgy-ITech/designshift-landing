@@ -1,0 +1,12 @@
+# DesignShift
+
+> Онлайн-курс по веб-дизайну: реальные проекты, портфолио и сертификат на выходе.
+
+Сайт: https://georgy-itech.github.io/designshift-landing/
+
+## Разделы
+- [Главная](https://georgy-itech.github.io/designshift-landing/)
+
+## О проекте
+Концепт-проект. Дизайн и разработка — Georgy_Tech (https://kwork.ru/user/georgy_tech).
+Стек: HTML, CSS, JavaScript без внешних зависимостей; шрифты подключены локально.
