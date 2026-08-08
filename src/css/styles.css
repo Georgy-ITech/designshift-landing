@@ -762,7 +762,7 @@ p, h1, h2, h3 { margin: 0; }
   gap: 20px;
   flex-wrap: wrap;
 }
-.footer__copy { color: var(--ink-muted); font-size: 0.84rem; }
+.footer__copy { color: var(--ink); font-size: 0.84rem; }
 .footer__nav { display: flex; gap: 4px; flex-wrap: wrap; }
 .footer__nav a {
   padding: 4px 12px;
